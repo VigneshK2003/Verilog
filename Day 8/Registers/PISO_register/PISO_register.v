@@ -5,7 +5,7 @@ module PISO_register(
          input load,
          output y );
 
-     reg [3:0] sr;
+         reg [3:0] sr = 4'b0000;
    
     always@(posedge clk)
       begin
