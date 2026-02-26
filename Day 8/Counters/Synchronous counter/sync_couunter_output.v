@@ -1,0 +1,22 @@
+time = 0, clk = 0, rst = 1, count = 000
+time = 5, clk = 1, rst = 0, count = 001
+time = 10, clk = 0, rst = 0, count = 001
+time = 15, clk = 1, rst = 1, count = 000
+time = 20, clk = 0, rst = 0, count = 000
+time = 25, clk = 1, rst = 0, count = 001
+time = 30, clk = 0, rst = 0, count = 001
+time = 35, clk = 1, rst = 0, count = 010
+time = 40, clk = 0, rst = 0, count = 010
+time = 45, clk = 1, rst = 0, count = 011
+time = 50, clk = 0, rst = 0, count = 011
+time = 55, clk = 1, rst = 0, count = 100
+time = 60, clk = 0, rst = 0, count = 100
+time = 65, clk = 1, rst = 0, count = 101
+time = 70, clk = 0, rst = 0, count = 101
+time = 75, clk = 1, rst = 0, count = 110
+time = 80, clk = 0, rst = 0, count = 110
+time = 85, clk = 1, rst = 0, count = 111
+time = 90, clk = 0, rst = 0, count = 111
+time = 95, clk = 1, rst = 0, count = 000
+sync_counter_tb.v:23: $finish called at 100 (1s)
+time = 100, clk = 0, rst = 0, count = 000
