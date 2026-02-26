@@ -12,11 +12,10 @@ synchronous_counter dut (.clk(clk), .rst(rst), .count(count) );
     $dumpvars(0, sync_counter_tb);
 
    clk = 0; rst = 1;
+         
    #5 rst = 0;
-
-   #10 rst = 1; #5 rst = 0;
-
-   #80 $finish;
+         
+   #100 $finish;
  end
 
 endmodule
