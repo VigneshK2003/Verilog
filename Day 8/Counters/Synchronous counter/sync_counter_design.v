@@ -1,3 +1,5 @@
+// Synchronous Up Counter
+
 module synchronous_counter(
     input  clk,
     input  rst,
