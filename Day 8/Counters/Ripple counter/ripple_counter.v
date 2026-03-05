@@ -1,3 +1,5 @@
+// asynchronous up counter
+
 module ripple_counter(
                input rst, clk,
                output reg [2:0]count
