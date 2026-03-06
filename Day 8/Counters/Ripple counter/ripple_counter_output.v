@@ -1,0 +1,30 @@
+VCD info: dumpfile ripple_counter.vcd opened for output.
+ time = 0, rst = 0, clk = 0, count = 000
+ time = 5, rst = 0, clk = 1, count = 000
+ time = 10, rst = 1, clk = 0, count = 000
+ time = 15, rst = 1, clk = 1, count = 001
+ time = 20, rst = 1, clk = 0, count = 001
+ time = 25, rst = 1, clk = 1, count = 010
+ time = 30, rst = 1, clk = 0, count = 010
+ time = 35, rst = 1, clk = 1, count = 011
+ time = 40, rst = 1, clk = 0, count = 011
+ time = 45, rst = 1, clk = 1, count = 100
+ time = 50, rst = 1, clk = 0, count = 100
+ time = 55, rst = 1, clk = 1, count = 101
+ time = 60, rst = 1, clk = 0, count = 101
+ time = 65, rst = 1, clk = 1, count = 110
+ time = 70, rst = 1, clk = 0, count = 110
+ time = 75, rst = 1, clk = 1, count = 111
+ time = 80, rst = 1, clk = 0, count = 111
+ time = 85, rst = 1, clk = 1, count = 000
+ time = 90, rst = 0, clk = 0, count = 000
+ time = 95, rst = 0, clk = 1, count = 000
+ time = 100, rst = 1, clk = 0, count = 000
+ time = 105, rst = 1, clk = 1, count = 001
+ time = 110, rst = 1, clk = 0, count = 001
+ time = 115, rst = 1, clk = 1, count = 010
+ time = 120, rst = 1, clk = 0, count = 010
+ time = 125, rst = 1, clk = 1, count = 011
+ time = 130, rst = 1, clk = 0, count = 011
+ time = 135, rst = 1, clk = 1, count = 100
+ripple_counter_tb.v:23: $finish called at 140 (1s)
