@@ -10,7 +10,7 @@ module up_down #(parameter WIDTH = 4)(
   always@(posedge clk or posedge rst)
     begin
        if(rst)
-          count <= 1'b0;
+          count <= 0;
        else if(up_ena)
           count <= count + 1'b1;
       else
