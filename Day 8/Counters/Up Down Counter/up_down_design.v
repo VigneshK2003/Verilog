@@ -12,8 +12,8 @@ module up_down #(parameter WIDTH = 4)(
        if(rst)
           count <= 0;
        else if(up_ena)
-          count <= count + 1'b1;
+          count <= count + 1;
       else
-          count <= count - 1'b1;
+          count <= count - 1;
      end
 endmodule
