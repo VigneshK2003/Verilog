@@ -1,3 +1,5 @@
+// up down counter
+
 module up_down #(parameter WIDTH = 4)(
           input clk,
           input rst,
