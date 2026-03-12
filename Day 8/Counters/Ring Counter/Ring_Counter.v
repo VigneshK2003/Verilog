@@ -1,3 +1,5 @@
+// Ring Counter
+
 module ring_counter #(parameter N = 4)(
                input rst, clk,
                output reg [N-1:0]count
