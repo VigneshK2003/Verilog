@@ -1,0 +1,23 @@
+Time = 0, clk = 0, rst = 1, count = 0000
+Time = 5, clk = 1, rst = 1, count = 0000
+Time = 10, clk = 0, rst = 0, count = 0000
+Time = 15, clk = 1, rst = 0, count = 1000
+Time = 20, clk = 0, rst = 0, count = 1000
+Time = 25, clk = 1, rst = 0, count = 1100
+Time = 30, clk = 0, rst = 0, count = 1100
+Time = 35, clk = 1, rst = 0, count = 1110
+Time = 40, clk = 0, rst = 0, count = 1110
+Time = 45, clk = 1, rst = 0, count = 1111
+Time = 50, clk = 0, rst = 0, count = 1111
+Time = 55, clk = 1, rst = 0, count = 0111
+Time = 60, clk = 0, rst = 0, count = 0111
+Time = 65, clk = 1, rst = 0, count = 0011
+Time = 70, clk = 0, rst = 0, count = 0011
+Time = 75, clk = 1, rst = 0, count = 0001
+Time = 80, clk = 0, rst = 0, count = 0001
+Time = 85, clk = 1, rst = 0, count = 0000
+Time = 90, clk = 0, rst = 0, count = 0000
+Time = 95, clk = 1, rst = 0, count = 1000
+Time = 100, clk = 0, rst = 0, count = 1000
+Time = 105, clk = 1, rst = 0, count = 1100
+johnson_counter_tb.v:20: $finish called at 110 (1s)
