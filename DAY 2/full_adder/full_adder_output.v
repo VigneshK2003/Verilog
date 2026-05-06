@@ -1,0 +1,11 @@
+
+VCD info: dumpfile full_adder.vcd opened for output.
+Time=0 , A =0, B=0, Cin=0 , Sum=0 , Carry=0
+Time=10 , A =0, B=0, Cin=1 , Sum=1 , Carry=0
+Time=20 , A =0, B=1, Cin=0 , Sum=1 , Carry=0
+Time=30 , A =0, B=1, Cin=1 , Sum=0 , Carry=1
+Time=40 , A =1, B=0, Cin=0 , Sum=1 , Carry=0
+Time=50 , A =1, B=0, Cin=1 , Sum=0 , Carry=1
+Time=60 , A =1, B=1, Cin=0 , Sum=0 , Carry=1
+Time=70 , A =1, B=1, Cin=1 , Sum=1 , Carry=1
+full_adder_tb.v:14: $finish called at 80 (1s)
