@@ -1,7 +1,7 @@
 
 module d_ff(
          input clk, d, rst,
-        output q
+         output reg q
 );
   
   always@(posedge clk)begin
@@ -12,7 +12,7 @@ module d_ff(
   end
 endmodule
     
-module shift_reg#(parameter width = 4)(
+module shift_reg #(parameter width = 4)(
         input clk,rst,
         input [width-1:0]d,
         output [width-1:0]q
@@ -21,12 +21,13 @@ module shift_reg#(parameter width = 4)(
   genvar i;
   wire [width:0]c;
   assign c[0] = d[0];
-  
   generate
     for(i=0; i<width; i++)begin
       d_ff dut( .d(c[i]), .q(c[i+1]), .clk(clk), .rst(rst) );
     end
   endgenerate
-  assign q = c[width:1];
+         
+  assign q = d;
 endmodule
+    
     
